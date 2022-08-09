@@ -5,7 +5,7 @@ This is the source code of our CVPR paper [Arxiv](https://arxiv.org/abs/2111.145
 `conda env create -f multiregister.yaml`
 
 ## Test on synthetic dataset and real dataset (Scan2CAD)
-All the experimental code files are in `./synthetic&real`
+All the experimental code files are in `./synthetic&real`. We only provide the code of the experiment in which [PREDATOR](https://github.com/overlappredator/OverlapPredator.Mink) is the feature extractor now. 
 
 ### Weights
 Download the [weights](https://sjtueducn-my.sharepoint.com/:f:/g/personal/weixuantang_sjtu_edu_cn/EqN_-RBECS5FgQC8F7Ult1wBzSpUu8qj4_sfHG7u8zTikw?e=dbaL51) and put `multi_oneTomore_multi_1` and `multi_real_box_test_main_cad` directly into `./synthetic&real/snapshot`
